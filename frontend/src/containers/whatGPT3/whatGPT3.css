@@ -1,0 +1,111 @@
+.gpt3-whatgpt3 {
+	display: flex;
+	flex-direction:column;
+	padding: 2rem;
+	background: var(--color-footer);
+	background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 182, 255, 1) 0%, rgba(100, 165, 213, 1) 49%, rgba(4, 23, 53, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 182, 255, 1) 0%, rgba(100, 165, 213, 1) 49%, rgba(4, 23, 53, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 182, 255, 1) 0%, rgba(100, 165, 213, 1) 49%, rgba(4, 23, 53, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 182, 255, 1) 0%, rgba(100, 165, 213, 1) 49%, rgba(4, 23, 53, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 182, 255, 1) 0%, rgba(100, 165, 213, 1) 49%, rgba(4, 23, 53, 1) 100%);
+}
+
+.gpt3-whatgpt3-feature .gpt3-whatgpt3-containers__features {
+	margin: 0;
+}
+
+.gpt3-whatgpt3-feature.gpt3__features-container__feature{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.gpt3-whatgpt3-heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6rem 0 2rem;
+}
+
+.gpt3-whatgpt3-heading h1 {
+font-size: 34px;
+	line-height: 60px;
+	font-weight: 800;
+max-width: 510px;
+font-family: var(--font-family);
+}
+
+.gpt3-whatgpt3-heading p {
+font-size: 20px;
+color:var(--color-subtext);
+font-weight: 500;
+font-family: var(--font-family);
+cursor: pointer;
+}
+
+.gpt3-whatgpt3-mainhead.gpt3__features-container__feature {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.gpt3-whatgpt3-containers {
+	display: flex;
+	margin-top: 2rem;
+}
+
+ @media screen and (max-width: 650px) {
+	.gpt3-whatgpt3-feature .gpt3-features {
+		flex-direction: column;
+	}
+	.gpt3-whatgpt3 .gpt3-features {
+		margin-top: 0.5rem;
+	}
+	.gpt3-whatgpt3-heading h1 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+} 
+
+ @media screen and (max-width: 425px) {
+	.gpt3-whatgpt3 {
+		margin:1rem
+	}
+	.gpt3-whatgpt3-containers {
+		display: block;
+	}
+	.gpt3-whatgpt3-heading {
+		flex-direction: column;
+	}
+} 
+
+@media screen and (max-width: 320px) {
+	.gpt3-whatgpt3-feature {
+		margin-right: 1rem;
+	}
+	.gpt3-whatgpt3-heading h1 {
+		font-size: 20px;
+	}
+	.gpt3-whatgpt3-heading p {
+font-size: 18px;
+	}
+	.gpt3-whatgpt3 {
+		margin:1rem
+	}
+	.gpt3-whatgpt3-containers {
+		display: block;
+	}
+	.gpt3-whatgpt3-heading {
+		flex-direction: column;
+	}
+} 
+
